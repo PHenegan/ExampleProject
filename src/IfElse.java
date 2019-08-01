@@ -1,4 +1,6 @@
 public class IfElse {
+
+    //'private' means that the only class that can access this variable is this class
     private static boolean isTrue;
     private static int x;
     private static int y;
@@ -49,9 +51,7 @@ public class IfElse {
             System.out.println("Idk what to put here");
         }
 
-
-
-
+        //Yay, you finished learning about If-Else statements! Go onto "Loops.java" now
     }
 
 }

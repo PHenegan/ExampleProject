@@ -16,6 +16,7 @@ public class Begin {
     //These are variables, which store a value of something (like variables in math)
     //ignore the 'static' part for now, it will be explained later on.
     //'public' before the variable type means that you can access it from other classes
+    //E.G if you wanted to access x from another class, you would write Begin.x instead of just x
 
     //ints are integers or whole numbers
     public static int n;
@@ -105,6 +106,17 @@ public class Begin {
         //this statement makes Java look at x as a double. This will cause the whole statement to output a double
         //doing this is called "casting." you are casting x to a double
         return (double)x / y;
+    }
+    public static int count(int n) {
+        n++; //this is the same as saying n = n + 1;
+
+        /*
+        If you want to increment with different numbers, you can also use
+        n += 2
+        n-- (same as subtracting 1)
+
+         */
+        return n;
     }
 
     //Yay! You've learned about variables and methods!

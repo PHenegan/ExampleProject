@@ -7,6 +7,7 @@ It can be used for large paragraphs of comments
 
 //This is a class: it is basically where code is written in for java
 //Class names typically have the first letter of each word capitalized
+@Deprecated
 public class StartHere {
     /**
      * Every time you see this, you are looking at Java documentation.

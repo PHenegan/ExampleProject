@@ -56,7 +56,7 @@ public class Loops {
                 System.out.print(col + (row - 1) * cols + " ");
             }
             //this creates a new line to distinguish the rows
-            System.out.println();
+            System.out.println("");
         }
     }
 }

@@ -80,7 +80,7 @@ public class Begin {
     }
 
     //This is an example of a method that will output a double.
-    //The variables on the inside of the parentheses are the inputs, which the method will need to run
+    //The variables on the inside of the parentheses are the parameters, or the values that the method takes in
     public static double distance(double x1, double y1, double x2, double y2) {
 
         //variables can also be defined within methods and other blocks of code (which you'll see later)

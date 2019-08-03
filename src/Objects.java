@@ -8,6 +8,9 @@ public class Objects {
     public static Person p;
     public static Person p2;
 
+
+    public static Worker w1;
+
     //remember how Strings are objects? Somewhere in the Java libraries, there is a 'String.java' that makes up all
     //of the code for a String.
     public static String word;
@@ -33,5 +36,7 @@ public class Objects {
 
         p2 = new Person("Larry", "Jonkuns", 25);
         System.out.println(Person.getPopulation());
+
+        //Once you have gotten here, read the 'Worker.java' file
     }
 }

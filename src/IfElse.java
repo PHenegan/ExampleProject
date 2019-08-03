@@ -27,7 +27,7 @@ public class IfElse {
         This is an if statement. The code inside of the block, or {  }, will run when the condition inside (  ) is true.
         If it is immediately followed by an else statement, that code will be run when the boolean inside is false.
 
-        NOTE that an if statement DOES NOT have to be followed by an else statement
+        NOTE - an if statement DOES NOT have to be followed by an else statement
          */
         if ((double) x / y >= 5.0) {
             System.out.println("x is at least 5 times greater than y");

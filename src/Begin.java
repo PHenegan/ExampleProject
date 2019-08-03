@@ -111,10 +111,12 @@ public class Begin {
         n++; //this is the same as saying n = n + 1;
 
         /*
-        If you want to increment with different numbers, you can also use
-        n += 2
-        n-- (same as subtracting 1)
-
+        If you want to increment with different numbers or use different operations, you can also use
+        n += 2;
+        n *= 2;
+        n /= 2;
+        etc.
+        n--; (same as subtracting 1)
          */
         return n;
     }

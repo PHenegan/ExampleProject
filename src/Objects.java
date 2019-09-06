@@ -29,7 +29,7 @@ public class Objects {
         System.out.println(word.length());
 
         //These are examples of how you call a static method from a class
-        Loops.twoDLoop(2,2);
+        Loops.twoDLoop(2, 2);
 
         //This shows off the static population variable in 'Person.java'
         System.out.println(Person.getPopulation());
@@ -38,5 +38,7 @@ public class Objects {
         System.out.println(Person.getPopulation());
 
         //Once you have gotten here, read the 'Worker.java' file
+
+
     }
 }

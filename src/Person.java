@@ -50,6 +50,14 @@ public class Person {
         return firstName + " " + lastName;
     }
 
+    /*
+    This is the method called when objects are used in Strings.
+        - E.G. '"a string" + p1' is the same as '"a string" + p1.toString()'
+     */
+    public String toString() {
+        return getFullName();
+    }
+
     //These are mutator methods. they modify instance variables
     public void setAge(int n) {
         age = n;

@@ -6,39 +6,35 @@ Think of it like "A square is a rectangle, but a rectangle is not a square"
 "A Worker is definitely a Person, but a Person is not necessarily a Worker"
 */
 public class Worker extends Person {
-    private double balance;
-    private double income;
+    private String title;
+    private String company;
 
-    public Worker(String firstName, String lastName, int age, double income, double balance) {
-        //this is like this(), but it calls the constructor of the superclass (the class above it)
-        //this is important, because all of the variables are stored as private, so this class can't access its superclass's
-        //data directly, and you would have to change or get values through methods.
+    public Worker(String firstName, String lastName, int age, String title, String company) {
+
+        /*
+        super() calls the constructor of the parent class, because this class can't directly access the instance variables
+        of the parent class (they are private)
+            - Worker can't directly refer to 'age', 'firstName', or 'lastName'
+         */
         super(firstName, lastName, age);
 
-        this.income = income;
-        this.balance = balance;
+        //setting the instance variables of 'Worker' like normal
+        this.title = title;
+        this.company = company;
     }
 
-    //Another constructor that where the balance is defaulted to 0
-    public Worker(String firstName, String lastName, int age, double income) {
-        this(firstName, lastName, age, income, 0);
+    public Worker(String firstName, String lastName, int age, String company) {
+        //using super() here is unnecessary because it gets called in the other constructor
+        this(firstName, lastName, age, "Unpaid-Intern",company);
     }
 
-    //I couldn't think of a better name here, there probably is one
-    public void payroll(int hours) {
-        balance += income * hours;
-    }
+    //accessor methods for the new instance variables
+    public String getTitle() { return title; }
+    public String getCompany() { return company; }
 
-    public double getBalance() {
-        return balance;
-    }
-    public double getIncome() {
-        return income;
-    }
-
-    public void overtime(int hours) {
-        //you get paid a little bit more for working overtime
-        //I don't think this is actually how it works, I just needed an idea for a method
-        balance += 1.1 * income * hours;
+    //you can rewrite methods that were in the parent class
+    public String toString() {
+        //super.toString is calling the toString() in Person.java
+        return super.toString() + " - " + title + " at " + company;
     }
 }

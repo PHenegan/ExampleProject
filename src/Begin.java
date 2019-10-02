@@ -1,4 +1,5 @@
 //These are comments. They are ignored by code. '//' at the beginning of a line tells Java this.
+//They are used to help programmers understand what's going on in code
 
 /*
 They can also be written like this, in blocks
@@ -7,7 +8,9 @@ Everything between these symbols is a comment.
 
 /**
  * This is documentation. It is used to describe what a class, method, etc. does.
- * It allows people to use someone else's classes without having to read the code.
+ * It allows people to use someone else's classes or methods without having to read the code.
+ * This usually involves explaining what methods take in and what they return so that a user can
+ * properly take advantage of it
  */
 
 //When naming a class, the first letter of each word should be capital

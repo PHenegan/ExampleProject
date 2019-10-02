@@ -39,6 +39,6 @@ public class Objects {
 
         //Once you have gotten here, read the 'Worker.java' file
 
-
+        //w1 = new Worker("Walter", "Dio", );
     }
 }

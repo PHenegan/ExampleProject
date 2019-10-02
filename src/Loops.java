@@ -60,3 +60,5 @@ public class Loops {
         }
     }
 }
+//You know loops now!
+//Next, go to Objects.java

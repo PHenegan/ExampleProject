@@ -1,5 +1,3 @@
-
-
 //many classes are written to be like "custom" variables (referred to as objects)
 //A good example is the String class
 public class Person {
@@ -65,5 +63,6 @@ public class Person {
     public void incrementAge() {
         age++;
     }
+
 }
 

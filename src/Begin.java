@@ -19,8 +19,9 @@ public class Begin {
     //E.G if you wanted to access x from another class, you would write Begin.x instead of just x
 
     //ints are integers or whole numbers
-    public static int n;
+    public static int myDog;
     public static int x = 3;
+    public static int n;
 
     //doubles are numbers with decimal points after them
     public static double dec = 7.8;

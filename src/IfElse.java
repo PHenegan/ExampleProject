@@ -1,7 +1,7 @@
 public class IfElse {
 
     //'private' means that the only class that can access this variable is this class
-    private static boolean isTrue;
+    private static boolean isBad;
     private static int x;
     private static int y;
 
@@ -10,18 +10,18 @@ public class IfElse {
         y = -2;
 
         //if x > y, this variable will be true. Otherwise, it will be false.
-        isTrue = x > y;
-        System.out.println("x > y: " + isTrue);
+        isBad = x > y;
+        System.out.println("x > y: " + isBad);
 
         //'&&' represents 'and.' If both of those conditions are true, then the value will result in true.
         //Otherwise, it will be false
-        isTrue = (x > y) && (y >= 0);
-        System.out.println("x > y and y >= 0: " + isTrue);
+        isBad = (x > y) && (y >= 0);
+        System.out.println("x > y and y >= 0: " + isBad);
 
         //'||' represents 'or.' If either one of these conditions is true, then the value will result in true.
         //Notice how '==' is used instead of '=' You have to do this whenever you are comparing values for a boolean
-        isTrue = (y == 0) || (x <= 100);
-        System.out.println("y = 0 or y >= 0: " + isTrue);
+        isBad = (y == 0) || (x <= 100);
+        System.out.println("y = 0 or y >= 0: " + isBad);
 
         /*
         This is an if statement. The code inside of the block, or {  }, will run when the condition inside (  ) is true.

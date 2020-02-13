@@ -1,9 +1,12 @@
 //NOTE - I tried to write this so that you can look at this file before looking at 'Person.java' but if you are confused,
 //       try checking that file out.
-public class Objects {
+public class
+Objects {
 
     //this is an object. There is no "variable" type Person, and the only reason I can do this is because there is a
     //'Person.java' file
+    //An easy way to think about objects is that they are "things" anything that can be a "thing" can be an object.
+    // E.G. A person is a thing, but running is not a thing, it is an action.
 
     public static Person p;
     public static Person p2;

@@ -1,4 +1,4 @@
-//many classes are written to be like "custom" variables (referred to as objects)
+//many classes are written to be like "custom" variables (individually referred to as objects)
 //A good example is the String class
 public class Person {
 

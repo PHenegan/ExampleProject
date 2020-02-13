@@ -39,6 +39,7 @@ public class Loops {
         for(int i = 0; i < 3; i++) {
             if (bool) {
                 System.out.println("the value is true");
+                System.out.println(i);
             }
         }
 
@@ -61,4 +62,4 @@ public class Loops {
     }
 }
 //You know loops now!
-//Next, go to Objects.java
+//Next, go to Arrays.java

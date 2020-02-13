@@ -15,7 +15,7 @@ public class IfElse {
 
         //'&&' represents 'and.' If both of those conditions are true, then the value will result in true.
         //Otherwise, it will be false
-        isBad = (x > y) && (y >= 0);
+        isBad = (x > y) && !(y >= 0);
         System.out.println("x > y and y >= 0: " + isBad);
 
         //'||' represents 'or.' If either one of these conditions is true, then the value will result in true.

@@ -57,6 +57,7 @@ public class Begin {
     public static void main(String[] args) {
         //after a variable is defined, its values can be changed.
         n = 7;
+        double n2 = distance(1,2,3,4);
         c = '/';
 
         //int n = 8;
@@ -74,14 +75,16 @@ public class Begin {
 
 
         //look at the methods below to see what is going on with these statements
-        System.out.println("Distance: " + distance(0,0, 3,4));
+        System.out.println("Distance: " + distance(0, 0, 3, 4));
 
         System.out.println(doStuff());
 
         System.out.println(div(5, 3));
-        System.out.println(newDiv(5,3));
+        System.out.println(newDiv(5, 3));
+
 
     }
+
 
     //This is an example of a method that will output a double.
     //The variables on the inside of the parentheses are the parameters, or the values that the method takes in
@@ -92,8 +95,9 @@ public class Begin {
         double dx = x2 - x1;
         double dy = y2 - y1;
 
+
         //this is a return statement. It will stop running the method and send back that number.
-        return dx * dx + dy * dy;
+        return Math.sqrt(dx * dx + dy * dy);
     }
 
     //This is an example of a method that doesn't take in any inputs but can still produce an output;
